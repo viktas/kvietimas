@@ -3,6 +3,7 @@
 # Jei norite kitokios nuorodos, parašykite ją po brūkšnio: Jonas ir Rūta | jonas-ruta
 # Eilutės, prasidedančios #, ignoruojamos.
 
-Aidai
-Gyti
-Egle ir Audriau
+Aidai,
+Gyti,
+Egle ir Audriau,
+Dmitrijau,
