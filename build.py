@@ -26,7 +26,7 @@ for line in open(os.path.join(ROOT, "sveciai.txt"), encoding="utf-8"):
     seen[slug] = name
     os.makedirs(os.path.join(OUT, slug))
     with open(os.path.join(OUT, slug, "index.html"), "w", encoding="utf-8") as f:
-        f.write(template.replace("{{VARDAS}}", html.escape(name)))
+        f.write(template.replace("{{VARDAS}}", html.escape(name)).replace("{{SLUG}}", slug))
     print(f"/{slug}/  ->  {name}")
 
 # Pagrindinis puslapis nerodo svečių sąrašo
@@ -36,4 +36,5 @@ open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(
     '<body style="margin:0;min-height:100vh;display:grid;place-items:center;background:#f3eee5;'
     'font-family:Georgia,serif;color:#604514;letter-spacing:.15em">VIKTORIJA &amp; VIKTAS · 2027 · 07 · 20</body>')
 open(os.path.join(OUT, ".nojekyll"), "w").close()
+shutil.copy(os.path.join(ROOT, "preview.jpg"), OUT)
 print(f"Iš viso kvietimų: {len(seen)}")
