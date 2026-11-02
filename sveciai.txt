@@ -1,0 +1,6 @@
+# Vienas svečias (ar šeima) vienoje eilutėje – taip, kaip turi būti parašyta kvietime.
+# Nuoroda sukuriama automatiškai: "Aidai" -> .../aidai/
+# Jei norite kitokios nuorodos, parašykite ją po brūkšnio: Jonas ir Rūta | jonas-ruta
+# Eilutės, prasidedančios #, ignoruojamos.
+
+Aidai
