@@ -4,3 +4,5 @@
 # Eilutės, prasidedančios #, ignoruojamos.
 
 Aidai
+Gyti
+Egle ir Audriau
